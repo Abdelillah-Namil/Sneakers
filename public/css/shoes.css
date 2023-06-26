@@ -1,0 +1,101 @@
+.index-div {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.index-ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.index-ul li {
+  width: 250px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.index-ul li:hover {
+  transform: scale(1.05);
+}
+
+.sneaker-card {
+  height: 300px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.sneaker-card h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.sneaker-card img {
+  width: 100%;
+  height: auto;
+}
+
+.shop-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.shop-link:hover {
+  background-color: #ff0000;
+  color: #000000;
+}
+
+.detail-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 3vh;
+}
+
+.detail-link:hover {
+  background-color: #ff0000;
+  color: #000000;
+}
+
+.like-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.like-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.like-button i {
+  font-size: 20px;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.like-button .liked {
+  color: red;
+}

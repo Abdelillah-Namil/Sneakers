@@ -1,0 +1,229 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    height: 118vh;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #f44336;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Featured Section Styles */
+  .featured {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .featured h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 20px;
+    color: #888;
+  }
+  
+  /* Reviews Section Styles */
+  .reviews {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .reviews h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .review-card {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+  }
+  
+  .review-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .review-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .review-card p {
+    font-size: 20px;
+  }
+  
+  /* Info Section Styles */
+  .info {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .info h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .info p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .background {
+    background-image: url(https://images.pexels.com/photos/2759779/pexels-photo-2759779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   
+    background-size: cover;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 36px;
+    }
+  
+    .hero p {
+      font-size: 18px;
+    }
+  
+    .featured h2 {
+      font-size: 28px;
+    }
+  
+    .card h3 {
+      font-size: 20px;
+    }
+  
+    .card p {
+      font-size: 16px;
+    }
+  
+    .reviews h2 {
+      font-size: 28px;
+    }
+  
+    .review-card h3 {
+      font-size: 20px;
+    }
+  
+    .review-card p {
+      font-size: 16px;
+    }
+  
+    .info h2 {
+      font-size: 28px;
+    }
+  
+    .info p {
+      font-size: 16px;
+    }
+    .background {
+      background-image: url(https://res.cloudinary.com/dmflq8bdu/image/upload/v1687714423/pexels-suraj-b-2759779last_prsgly.jpg);
+    }
+  }
+  

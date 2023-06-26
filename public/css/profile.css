@@ -1,0 +1,119 @@
+.profilepage {
+    display: flex;
+    flex-direction: row;
+}
+
+.profilecard {
+    position: absolute;
+    width: 30%;
+    height: auto;
+}
+
+.index-div-profile {
+    width: 70%;
+    margin-left: 30%;
+    height: auto;
+}
+
+.profilepage {
+    display: flex;
+    align-items: flex-start;
+    /* Align items at the top */
+    overflow: hidden;
+    /* Hide overflow for the entire page */
+}
+
+.profilecard {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.index-div-profile {
+    min-height: 60vh;
+    margin-left: 300px;
+    /* Adjust margin to accommodate the fixed profile card width */
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    /* Enable vertical scrolling only in this div */
+}
+
+@media (max-width: 600px) {
+    .profilepage {
+        flex-direction: column;
+    }
+
+    .profilecard {
+        position: relative;
+        width: 100%;
+    }
+
+    .index-div-profile {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.profilecard>.card {
+    width: 260px;
+    height: 90vh;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    padding-top: 10px;
+    margin: auto;
+    font-family: inherit;
+}
+
+.profilecard>.card span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 1.3em;
+}
+
+.profilecard>.card .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1em;
+}
+
+.profilecard>.card .img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 40px;
+    background-size: cover;
+}
+
+.profilecard>.card a ,
+.profilecard>.card form button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+    background: #e8e8e8;
+    color: #111111;
+    font-weight: 600;
+}
+
+.profilecard>.card button:hover {
+    background: #212121;
+    color: #ffffff;
+}

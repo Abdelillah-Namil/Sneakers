@@ -1,0 +1,60 @@
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.footer-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.social-links li {
+  margin-right: 10px;
+}
+
+.social-links li a {
+  color: #333;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.social-links li a:hover {
+  transform: scale(1.2);
+}
+
+.twitter:hover {
+  color: #1DA1F2;
+}
+
+.instagram:hover {
+  color: #C13584;
+}
+
+.facebook:hover {
+  color: #1877F2;
+}
+
+.footer-content p {
+  color: #555;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: #777;
+  font-size: 12px;
+}

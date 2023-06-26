@@ -1,0 +1,45 @@
+.search-results {
+    margin: 20px;
+  }
+  
+  .search-results .sneaker-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .search-results .sneaker-list a{
+    text-decoration: none;
+    color: black;
+  }
+  .search-results .sneaker-card {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .search-results .sneaker-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .search-results .sneaker-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .search-results h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .search-results p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
